@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: aquamarine;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+element.style {
+
+}
+
+.red {
+    background-color: red;
+    border: 20px outset red;
+}
+ 
+.orange {
+    background-color: orange;
+    border: 20px outset orange;
+}
+
+.green {
+    background-color: green;
+    border: 20px outset green;
+}
+
+.purple {
+    background-color: purple;
+    border: 20px outset purple;
+}
+
+.blue {
+    background-color: blue;
+    border: 20px outset blue;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
