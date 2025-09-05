@@ -1,0 +1,55 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: aquamarine;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    vertical-align: top;
+}
+
+   element.style {
+
+}
+
+.red {
+    background-color: red;
+    border: 20px outset yellow;
+}
+
+.green {
+    background-color: green;
+    border: 20px outset orange;
+}
+
+.purple {
+    background-color: purple;
+    border: 20px outset aquamarine;
+}
+
+.blue {
+    background-color: blue;
+    border: 20px outset red;
+}
