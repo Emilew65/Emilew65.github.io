@@ -22,34 +22,36 @@ body {
     font-size: 0px;
 }
 
-.block {
+.post-it {
     display: inline-block;
     width: 200px;
     height: 200px;
+    margin: 24px;
+    padding: 24px;
     background-color: yellow;
     vertical-align: top;
 }
 
-   element.style {
+element.style {
 
 }
 
 .red {
     background-color: red;
-    border: 20px outset yellow;
+    
 }
 
 .green {
     background-color: green;
-    border: 20px outset orange;
+    
 }
 
 .purple {
     background-color: purple;
-    border: 20px outset aquamarine;
+    
 }
 
 .blue {
     background-color: blue;
-    border: 20px outset red;
+    
 }

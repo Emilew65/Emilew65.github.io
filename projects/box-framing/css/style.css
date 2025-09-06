@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.id {
+    image: beach;
+}
+div {
+    margin: 10px;
+    padding: 5px;
+    border: 25px solid brown;
+    background-color: off-white;
+}
+
+.id {
+    border-image: sunset;
+}
+
+div {
+    margin: 5px;
+    padding: 5px;
+    border: 30px solid black;
+    display: inline-block;
+    background-color: off-white;
+}
+
+.id {
+    id: sunsetpeople;
+}
+
+div {
+    margin: 10px;
+    padding: 5px;
+    border: 30px solid pink;
+    border-radius: 50%;
+    background-color: off-white;
+} 

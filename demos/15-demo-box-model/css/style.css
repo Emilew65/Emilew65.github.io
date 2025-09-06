@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+
+}
+
+div{
+    margin: 24px;
+    padding: 24px;
+    border-radius: top-right/top-left/bottom-right top-right/bottom-left;
+    border-radius: 24px 60px;
+    background-color: pink;
+div{
+
+    margin: 36px;
+    padding: 24px;
+    border-radius: 60px 24px;
+    background-color: red;
+
+div{
+    margin: 48px;
+    padding: 50px;
+    border-radius: 24px 36px;
+    background-color: aquamarine;
+}
+
+
+}
+
+
+
+
+
+
+    border-bottom: 2px solid black;
+
+
+
+}
+ 
