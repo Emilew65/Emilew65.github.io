@@ -26,10 +26,20 @@ body {
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 24px;
-    padding: 24px;
+    margin: 18px;
+    padding: 18px;
     background-color: yellow;
     vertical-align: top;
+    box-shadow: -4px -4px -4px -4px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    horizontal-align: center;
 }
 
 element.style {
@@ -38,20 +48,24 @@ element.style {
 
 .red {
     background-color: red;
-    
+    box-shadow: 4px 4px 4px 4px pink;
 }
 
 .green {
     background-color: green;
-    
+    box-shadow: 6px 6px 6px 6px rgb(96, 223, 96);
 }
 
 .purple {
     background-color: purple;
-    
+    box-shadow: 8px 8px 8px 8px lavender;
 }
 
 .blue {
     background-color: blue;
-    
+    box-shadow: 10px 10px 10px 10px lightskyblue;
+}
+
+.radius-round {
+    border-radius: 50% white;
 }
