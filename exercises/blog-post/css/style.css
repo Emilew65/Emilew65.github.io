@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    background-color: lightpink;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fantasy-fact-or-fiction .fantasy aligns .by Emily Lewis {
+    background-color: pink;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+} 

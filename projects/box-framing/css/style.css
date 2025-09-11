@@ -22,7 +22,6 @@ div {
 }
 
 .sunset-border {
-    
     border-image: "sunset.jpg";
     margin: 5px;
     padding: 5px;
@@ -39,16 +38,12 @@ div {
     background-color: #f8f8f8;
 }
 
-.sunset-people-circle {
-    background-image: "sunset-people.jpg" 30 round;   
+.radius-round-sunset-people {
+    border-radius: 50%;
+    text-align: center;
+    background-image: "sunset-people.jpg"; 
     margin: 10px;
     padding: 5px;
     border: 30px solid black;
-    border-radius: 50%;
     background-color: #f8f8f8;
-}
-
-.radius-round {
-    border-radius: 50%;
-    text-align: center;
 }
