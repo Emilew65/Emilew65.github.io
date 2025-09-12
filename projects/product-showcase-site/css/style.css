@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -26,10 +26,25 @@ body {
 }
 
 h2 {
-    font-family: "Henny Penny", system-ui;
-    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 p {
     font-family: "Syne Mono", monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.display {
+    display: block;
+}
+
+.button.simple {
+    border: 1px solid orange;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: orange;
 }
