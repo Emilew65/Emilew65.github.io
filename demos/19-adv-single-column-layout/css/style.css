@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Syne+Mono&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column { 
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-outer-container {
+    background-color: lightpink;
+    padding: 48px 24px;
+}
+
+.dark-outer-container {
+    background-color: fuchsia;
+    padding: 48px 24px;
+    color: white;
+}
+
+h2 {
+     font-family: "Henny Penny", system-ui;
+     font-weight: normal;
+}
+
+p {
+     font-family: "Syne Mono", monospace;
+}
+
+ 

@@ -14,15 +14,6 @@ body {
    margin: 8px;
 }
 
-.inline-block-styled {
-    display: inline-block;
-    border: 10px solid lightblue;
-    background-color: white;
-    padding: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
 .div .ul .li {
     background-color: white;
 }
