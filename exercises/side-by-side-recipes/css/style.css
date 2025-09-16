@@ -23,12 +23,12 @@ body {
 
  /* flex item */
 #side-by-side-recipe img {
-    width: 200px
+    width: 300px;
 }
 
 /* flex item */
 #side-by-side h2 {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 /* flexbox container */
