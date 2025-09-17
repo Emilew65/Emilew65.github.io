@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* This is a Flexbox container */
+#navbar {
+    Background-color: aqua;
+    border-color: blue;
+    border: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: mediumblue;
+    padding: 16px;
+}
+
+#navbar #AngelEars {
+    margin-right: auto;
+}
+
+#navbar 
+
+#navbar .cta-button {
+    color: white;
+    border-radius: 18px;
+    padding: 16px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 18px;
+    margin-left: 18px;
+} 

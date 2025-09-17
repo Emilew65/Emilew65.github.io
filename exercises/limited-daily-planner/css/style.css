@@ -7,29 +7,29 @@ body {
     font-family: sans-serif;
 }
 
-#morning li 
-#afternoon li
-#evening li {
-    padding: 10px;
-    margin: 10px;
-}
-
 #morning {
-    background-color: goldenrod;
+    background-color: fuchsia;
     border: 12px;
     margin: 12px;
 }
 
 #afternoon {
-    background-color: yellow;
+    background-color: pink;
     border: 12px;
     margin: 12px;
 }
 
 #evening {
-    background-color: orange;
+    background-color: magenta;
     border: 12px;
     margin: 12px;
+}
+
+#morning li 
+#afternoon li
+#evening li {
+    padding: 10px;
+    margin: 10px;
 }
 
 .button {
@@ -38,9 +38,9 @@ body {
     margin: 12px;
 }
 
-#morning .completed 
-#afternoon .completed
-#evening .completed {
+#morning .completed .button
+#afternoon .completed .button
+#evening .completed .button {
     color: grey;
     font-style: normal;
     font-size: 12px;
@@ -48,9 +48,9 @@ body {
     margin: 12px auto;
 }
 
-#morning .important
-#afternoon .important
-#evening .important {
+#morning .important .button
+#afternoon .important .button
+#evening .important .button {
     text-decoration-color: red;
     text-decoration: line-through;
     font-weight: bold;
