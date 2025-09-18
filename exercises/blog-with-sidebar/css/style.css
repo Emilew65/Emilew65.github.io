@@ -24,7 +24,7 @@ body {
 #sidebar-content {
     /* background-color: lightblue; */
     /* flex: 1; */
-    width: 250px;
+    width: 500px;
     order: 2;
     padding: 18px;
 }
@@ -68,8 +68,12 @@ body {
 
 .fantasy-fact-or-fiction .fantasy aligns .by Emily Lewis {
     background-color: pink;
-    max-width: 300px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 100px;
-} 
+}
+
+#main-content img {
+    width: 100%;
+}
