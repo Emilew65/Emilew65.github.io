@@ -9,7 +9,7 @@ body {
 
 /* This is a Flexbox container */
 #navbar {
-    Background-color: aqua;
+    Background-color: forestgreen;
     border-color: blue;
     border: 12px;
     display: flex;
@@ -19,23 +19,31 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: mediumblue;
-    padding: 16px;
+    color: white;
+    padding: 12px;
 }
 
 #navbar #AngelEars {
     margin-right: auto;
 }
 
-#navbar 
+#navbar #logo img {
+    width: 150px;
+}
 
 #navbar .cta-button {
-    color: white;
-    border-radius: 18px;
-    padding: 16px 18px;
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    padding: 12px 18px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-right: 18px;
-    margin-left: 18px;
-} 
+    min-width: 100px;
+    margin-right: 24px;
+}
+
+h2 {
+
+
+}
