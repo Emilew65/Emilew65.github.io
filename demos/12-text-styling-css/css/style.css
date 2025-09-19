@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+}
+
+#span-2 {
+    font-style: italic;
+}
+
+#big-paragraph {
+    font-size: 16px;
+}

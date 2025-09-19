@@ -29,7 +29,7 @@ body {
     font-size: 24px;
 }
 
-.chapter .edit {
+.chapter .edit li {
     text-color: red;
     font-size: 24px;
 }
