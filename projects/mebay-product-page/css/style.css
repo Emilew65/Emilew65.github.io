@@ -33,16 +33,13 @@ body {
     width: 100px;
     margin: 16px;
     padding: 16px;
-    background-color: lightblue;
 }
 
 #featured-image-column {
     flex: 1;
-    background-color: coral;
 }
 
 #product-info-column {
-    background-color: aqua;
     margin: 16px;
     padding: 16px;
     font-size: 16px;

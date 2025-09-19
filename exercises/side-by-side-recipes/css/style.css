@@ -7,13 +7,11 @@ body {
     font-family: sans-serif;
 }
 
-
 #single-column {
     max-width: 500px;
     margin: 24px auto;
     border: 3px solid red;
 }
-
 
 /* flexbox container */
 #side-by-side-recipe {
@@ -21,7 +19,7 @@ body {
     align-items: center;
 }
 
- /* flex item */
+/* flex item */
 #side-by-side-recipe img {
     width: 300px;
 }
@@ -51,7 +49,7 @@ body {
 }
 
 .card img {
-    padding: 12px
+    padding: 12px;
     margin: 12px opx;
 }
 
@@ -62,10 +60,10 @@ body {
 
 .card p {
     font-size: 12px;
-    margin: 12px 0px opx;
+    margin: 12px 8px 8px;
 }
 
 #card-container {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
