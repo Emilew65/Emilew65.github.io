@@ -14,24 +14,24 @@ body {
 .side-by-side {
     margin: 24px;    
     padding: 24px;
-    width: 100px;
+    width: px;
 }
 
 .image-container {
-    width: 250px;
+    width: 24px;
     margin: 16px;
     padding: 16px;
-    order: 2;
+    order: 3;
 }
 
 .text-container {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #thumbnail-column {
     width: 100px;
-    margin: 16px;
+    margin: 100px;
     padding: 16px;
 }
 
