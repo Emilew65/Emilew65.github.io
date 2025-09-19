@@ -7,10 +7,20 @@ body {
     font-family: sans-serif;
 }
 
+.button.simple {
+    border: 3px solid white;
+    color: white;
+    margin: 36px;
+    border-radius: 8px;
+    padding; 36px;
+    background-color: blue;
+    font-size: 12px;
+
+}
+
 #single-column {
     max-width: 500px;
     margin: 24px auto;
-    border: 3px solid red;
 }
 
 /* flexbox container */
@@ -37,20 +47,19 @@ body {
 }
 
 #side-by-side .image-container {
-    flex: 1;
+    flex: 2;
 }
 
 #side-by-side .text-container {
-    flex: 1;
+    flex: 2;
 }
 
 #side-by-side .image container img {
-    width: 50%;
+    width: 100%;
 }
 
 .card img {
-    padding: 12px;
-    margin: 12px opx;
+    margin: 30px 30px;
 }
 
 .card {
@@ -61,9 +70,14 @@ body {
 .card p {
     font-size: 12px;
     margin: 12px 8px 8px;
+    text-align: center;
 }
 
 #card-container {
     display: flex;
     gap: 16px;
+}
+
+h2 {
+    text-align: center;
 }

@@ -12,13 +12,13 @@ body {
 }
 
 .side-by-side {
-    margin: 24px;    
-    padding: 24px;
-    width: px;
+    margin: 18px;    
+    padding: 18px;
+    width: 50px;
 }
 
 .image-container {
-    width: 24px;
+    width: 18px;
     margin: 16px;
     padding: 16px;
     order: 3;
