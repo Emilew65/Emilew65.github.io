@@ -9,9 +9,9 @@ body {
 
 /* This is a Flexbox container */
 #navbar {
-    Background-color: forestgreen;
-    border-color: blue;
-    border: 12px;
+    Background-color: #C25323;
+    border-color: orangered;
+    border: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 
 #navbar .cta-button {
     background-color: white;
-    color: green;
+    color: orange;
     border-radius: 20px;
     padding: 12px 18px;
     font-size: 18px;
@@ -43,7 +43,9 @@ body {
     margin-right: 24px;
 }
 
-h2 {
-
-
+.center-column AngelEars {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }

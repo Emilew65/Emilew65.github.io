@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#side-hero {
+    /* These 4 properties are used for hero's */
+    background-image: url("../images/lonely-ocean.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12%;
+}
+
+#side-hero .hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 6vw;
+}
+
+.hero-content h3 {
+    font-size: 3vw;
+}
+
+#centered-hero {
+    /* These 4 properties are used for hero's */
+    background-image: url("../images/stars-on-velvet.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 100px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+#contrast-hero {
+    /* These 4 properties are used for hero's */
+    background-image: url(../images/placid-waters.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12%;
+}
+#contrast-hero .hero-content {
+    Background-color: rgba(255, 255, 255, 0.514);
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+}
