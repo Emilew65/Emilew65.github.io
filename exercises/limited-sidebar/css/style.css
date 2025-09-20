@@ -15,24 +15,21 @@ body {
     padding: 24px;
 }
 
-.chapter  {
-    font-size: 24px;
+#sidebar .chapter  {
+    font-size: 18px;
     font-weight: bold;
     padding: 24px;
     margin: 24px;
     width: 24px;
 }
 
-.needs-edit {
+#sidebar .needs-edit {
     color: orange;
     font-style: italic;
     font-size: 24px;
 }
 
-.chapter .edit li {
-    text-color: red;
+#Sidebar .chapter .needs-edit {
+    color: red;
     font-size: 24px;
 }
-
-
- 

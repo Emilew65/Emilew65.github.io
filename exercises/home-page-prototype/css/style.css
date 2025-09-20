@@ -15,14 +15,16 @@ body {
         brown
     );
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 #navbar a {
     text-decoration: none;
-    color: orange;
+    color: white;
     padding: 24px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 #centered-hero {
@@ -31,7 +33,6 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
