@@ -32,15 +32,9 @@ body {
     margin: 10px;
 }
 
-.button {
-    border-radius: 25%;
-    padding: 12px;
-    margin: 12px;
-}
-
-#morning .completed .button
-#afternoon .completed .button
-#evening .completed .button {
+#morning .completed button
+#afternoon .completed button
+#evening .completed button {
     color: grey;
     font-style: normal;
     font-size: 12px;
@@ -48,13 +42,22 @@ body {
     margin: 12px auto;
 }
 
-#morning .important .button
-#afternoon .important .button
-#evening .important .button {
+#morning .important button
+#afternoon .important button
+#evening .important button {
     text-decoration-color: red;
     text-decoration: line-through;
     font-weight: bold;
     border-radius: 25%;
     padding: 12px;
     margin: 12px auto;
+}
+
+#morning button 
+#afternoon button
+#evening button {
+    border-radius: 25%;
+    padding: 12px;
+    margin: 12px;
+    color: grey;
 }

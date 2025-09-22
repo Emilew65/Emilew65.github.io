@@ -13,27 +13,40 @@ body {
     background-color: darkolivegreen;
 }
 
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* styling related code */
 .card {
     border: 5px solid royalblue;
     padding: 12px;
     text-align: center;
     margin: 14px 0px;
     background-color: aquamarine;
+    flex: 1;
 }
 
 .card h3 {
     font-size: 20px;
     margin: 0px;
+    flex: 1;
 }
 
 .card p {
     font-size: 24px;
     margin: 20px 0px 0px;
+    flex: 1;
 }
 
 #card-container {
     display: flex;
     gap: 10px;
+    display: flex;
 }
 
 .button.wide {
