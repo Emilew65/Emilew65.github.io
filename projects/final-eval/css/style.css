@@ -6,4 +6,82 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
- 
+
+.center-column {
+    background-color: green;
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+}
+
+/* flexbox container */
+#side-by-side-1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+/* flex item */
+#side-by-side-1 .image-container {
+    flex: 1;
+}
+
+/* flex item */
+#side-by-side-1 .text-container {
+    flex: 1;
+}
+
+#side-by-side-1 .image-container img {
+    width: 50%;
+}
+
+/* flexbox container */
+#side-by-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+#side-by-side-2 .image-container {
+    flex: 1;
+}
+
+#side-by-side-2 .text-container {
+    flex: 1;
+}
+
+#side-by-side-2 .image-container img {
+    width: 50%;
+} 
+
+#card-section {
+    background-color: #5b00ed;
+    color: #bfefff;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
