@@ -19,7 +19,7 @@ body {
     background-color: forestgreen;
     color: #bfefff;
     padding: 48px;
-     display: flex;
+    display: flex;
     align-items: center;
     gap: 24px;
     text-align: center;
@@ -48,6 +48,6 @@ body {
     margin: 24px 0px 0px;
 }
 
-.card img (
+.card img {
     
-)
+}

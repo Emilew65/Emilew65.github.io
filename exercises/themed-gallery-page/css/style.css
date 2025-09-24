@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-hero {
+    /* These 4 properties are used for hero's */
+    background-image: url("../images/fantasy-scifi-2.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+    text-shadow: 8px blue;
+}
+
+.hero-content h1 {
+    font-size: 75px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+#layout {
+    align-self: start;
+    /*fiddle with this if you want to modify a horizontal masonry galleries*/
+    max-width: 500px;
+    margin: 36px auto;
+    text-align: center;
+    background-color: slateblue;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.horizontal-masonry-gallery img {
+    /*fiddle with this if you want to modify a horizontal masonry galleries*/
+    height: 200px;
+    flex: 1;
+    object-fit: cover;
+    border-color: 50px blue;
+}
