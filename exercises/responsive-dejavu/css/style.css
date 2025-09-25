@@ -67,7 +67,7 @@ body {
 #layout {
     align-self: start;
     /*fiddle with this if you want to modify a horizontal masonry galleries*/
-    max-width: 500px;
+    max-width: 800px;
     margin: 36px auto;
     text-align: center;
     background-color: slateblue;
@@ -100,7 +100,7 @@ body {
 
 /* MOBILE BREAKPOINT */
 @media screen and (max-width: 526px) {
-    #nav {
+    #navbar {
         flex-direction: column;
         align-items: center;
     }
