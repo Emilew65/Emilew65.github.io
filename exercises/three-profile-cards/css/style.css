@@ -9,7 +9,7 @@ body {
 
 #single-column {
     max-width: 800px;
-    margin: 36px auto;
+    margin: 18px auto;
     background-color: darkolivegreen;
 }
 
@@ -32,28 +32,28 @@ body {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px;
     flex: 1;
 }
 
 .card p {
-    font-size: 24px;
-    margin: 20px 0px 0px;
+    font-size: 18px;
+    margin: 18px 0px 0px;
     flex: 1;
 }
 
 #card-container {
     display: flex;
     gap: 10px;
-    display: flex;
+    margin: 50px;
 }
 
 .button.wide {
     display: inline-block;
     margin: 20px;
     margin: center;
-    border-radius: 24px;
+    border-radius: 18px;
     padding: 3px;
     background-color: green;
 }
