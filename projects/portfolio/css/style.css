@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: slategrey;
 }
 
 /* This is a flexbox container */
