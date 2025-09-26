@@ -16,7 +16,8 @@ body {
 }
 
 #sidebar .chapter  {
-    font-size: 18px;
+    color: white;
+    font-size: 36px;
     font-weight: bold;
     padding: 24px;
     margin: 24px;
@@ -29,7 +30,8 @@ body {
     font-size: 24px;
 }
 
-#Sidebar .chapter .needs-edit {
+#sidebar .chapter, 
+.needs-edit {
     color: red;
     font-size: 24px;
 }
