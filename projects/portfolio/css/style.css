@@ -5,17 +5,17 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: slategrey;
+    background-color: rgb(97, 110, 124);
 }
 
 /* This is a flexbox container */
 #navbar {
     background: linear-gradient(
         to bottom,
-        white,
+        rgb(173, 43, 43),
         grey,
         black,
-        white
+        rgb(173, 43, 43)
     );
     box-shadow: 8px black;
     display: flex;
@@ -56,7 +56,7 @@ body {
 }
 
 .button.background {
-    background-color: darkslategrey;
+    background-color: rgb(173, 43, 43);
     color: white;
     padding: 24px;
     border-radius: 36px;
@@ -66,8 +66,7 @@ body {
 }
 
 .button.border {
-    color: whitesmoke;
-    border: 8px solid black;
+    border: 10px solid black;
     margin: 8px;
     padding: 12px 20px;
     font-size: 20px;
@@ -90,34 +89,11 @@ body {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
-    background-color: whitesmoke;
 }
 
 #layout h2 {
     text-align: center;
     color: white;
-}
-
-#navbar {
-    background: linear-gradient(
-        to bottom,
-        white,
-        grey,
-        black,
-        white
-    );
-    box-shadow: 8px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#navbar a {
-    text-decoration: none;
-    text-align: center;
-    color: whitesmoke;
-    padding: 24px;
 }
 
 .horizontal-masonry-gallery {
@@ -141,7 +117,7 @@ body {
 #single-column {
     max-width: 800px;
     margin: 18px auto;
-    background-color: darkgrey ;
+    background-color: slategrey;
 }
 
 .row {
@@ -154,11 +130,10 @@ body {
 
 /* styling related code */
 .card {
-    border: 5px solid darkgrey;
-    padding: 12px;
+    border: 5px solid whitesmoke;
+    margin: auto;
     text-align: center;
-    margin: 14px 0px;
-    background-color: darkslategrey;
+    background-color: grey;
     flex: 1;
 }
 
@@ -169,7 +144,7 @@ body {
 }
 
 .card p {
-    font-size: 12px;
+    font-size: 18px;
     margin: 18px 0px 0px;
     flex: 1;
 }
@@ -177,14 +152,37 @@ body {
 #card-container {
     display: flex;
     gap: 10px;
-    margin: 50px;
 }
 
 .button.wide {
     display: inline-block;
     margin: 20px;
     margin: center;
+    border-radius: 18px;
     padding: 3px;
-    background-color: darkslategrey;
+    background-color: rgb(173, 43, 43);
     color: white;
+}
+
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 640px) {
+    #single-column-layout h1 {
+        font-size: 44px;
+    }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 526px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
+    }
 }
