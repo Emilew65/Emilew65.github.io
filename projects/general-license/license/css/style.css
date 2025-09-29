@@ -27,31 +27,39 @@ body {
     margin: 48px auto;
 }
 
+#license h1 {
+    margin: 50%;
+    padding-top: 50%;
+    height: 5px;
+    font-size: 48px;
+}
+
 #left-side {
     display: inline-block;
     width: 65%;
-    padding: 72px;
+    height: auto;
+    padding: 100px;
     margin: auto;
 }
 
 #right-side {
     display: inline-block;
     width: 34%;
-    padding-bottom: 64px;
-    margin-bottom: 64px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
-#id {
+#id-and-expiration {
+    display: inline-block;
+}
+
+#license {
     display: inline-block;
 }
 
 #content h1 {
     margin: auto;
-    padding: 56px;
-}
-
-#expiration {
-    display: inline-block;
+    padding: 0px 64px 0px;
 }
 
 #small-pic {
@@ -63,7 +71,7 @@ body {
 }
 
 #small-pic-container img {
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
     vertical-align: middle;
     border: 0;
@@ -76,7 +84,7 @@ body {
 
 #data-right {
     display: inline-block;
-    
+    margin: auto;
 }
 
 #signature {
@@ -85,11 +93,14 @@ body {
 }
 
 #right-side img {
-    width: stretch;
+    width: 100%;
 }
 
-#donor,
-#real-id {
+#donor {
+    display: inline-block;
+}
+
+#realID {
     display: inline-block;
 }
 
