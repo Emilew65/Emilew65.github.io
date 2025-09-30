@@ -5,11 +5,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(230, 65, 180)
 }
 
 #centered-hero {
     /* These 4 properties are used for hero's */
-    background-image: url("../images/fantasy-scifi-2.avif");
+    background-image: url("../images/fantasy-scifi-6.avif");
     background-size: cover;
     background-position: center center;
     height: 50vh;
@@ -35,16 +36,17 @@ body {
 #layout {
     align-self: start;
     /*fiddle with this if you want to modify a horizontal masonry galleries*/
-    max-width: 500px;
+    max-width: 1000px;
     margin: 36px auto;
     text-align: center;
-    background-color: slateblue;
+    background-color: rgb(156, 73, 94);
 }
 
 .horizontal-masonry-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    padding: 20px;
 }
 
 .horizontal-masonry-gallery img {
