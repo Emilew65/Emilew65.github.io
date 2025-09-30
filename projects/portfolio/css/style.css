@@ -127,7 +127,7 @@ body {
 
 /* styling related code */
 .card {
-    border: 5px solid whitesmoke;
+    border: 5px solid rgb(173, 43, 43);
     margin: auto;
     text-align: center;
     background-color: grey;
