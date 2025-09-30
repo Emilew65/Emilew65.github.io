@@ -42,11 +42,11 @@ body {
 
 #centered-hero .hero-content {
     color: white;
-    text-align: center;
+    text-align: right;
 }
 
 .hero-content h1 {
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .hero-content h3 {
@@ -165,7 +165,7 @@ body {
 /* TABLET BREAKPOINT */
 @media screen and (max-width: 640px) {
     #single-column-layout h1 {
-        font-size: 44px;
+        font-size: 24px;
     }
 
     #basic-grid-gallery {
@@ -181,6 +181,6 @@ body {
     }
 
     #single-column-layout h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
 }
