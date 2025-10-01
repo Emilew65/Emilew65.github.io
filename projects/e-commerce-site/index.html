@@ -11,20 +11,20 @@
         <div id="navbar">
             <img 
                 src="indigosphere-logo.png" 
-                alt="IndigoSphere"
+                alt="indigosphere"
             >
-            <a href="#">Clothing</a>
-            <a href="#">Home Goods</a>
-            <a href="#">Wall Art</a>
+            <a href="tshirts">Clothing</a>
+            <a href="mugs">Home Goods</a>
+            <a href="signs">Wall Art</a>
             <a href="#">Toys</a>
             <a href="#">Bathroom</a>
-            <a href="#">Accessories</a>
+            <a href="necklace">Accessories</a>
             <a href="#">Pets</a>
             <a href="#">Office Goods</a>
-            <a href="#">Appliances</a>
-            <a href="#">Kitchen</a>
+            <a href="#">Kitchen</a>   
             <a href="#" class="cta-button">Sign up</a>
             <a href="#" class="cta-button">Login</a>
+            <a href="Contact Us" class="cta-button">Contact Us</a>
             <a href="#" class="cta-button">Add To Cart</a>
         </div>
         <!-- flexbox container -->
@@ -33,7 +33,7 @@
             <div class="hero-content">
                 <h1>Celebrate a Spooktacular Halloween!</h1>
                 <h3>Spookieness Galore!</h3>
-                <a href="#" class="button-wide">Shop Now</a>
+                <a href="indigosphere" class="button-wide">Shop Now</a>
             </div>
         </div>
         <div id="layout"> 
@@ -63,12 +63,12 @@
                         <img
                             src="images/sign.webp"
                             alt="sign"
-                            width="150"
+                            width="200"
                         >
                         $45.00
                         Hand-Painted Retro Cat Halloween Sign: Rustic Trick 
                         Or Treat Decor
-                        <a href="#" class="button wide">Add To Cart</a>
+                        <a href="Add To Cart" class="button wide">Add To Cart</a>
                     </p>
                 </div>
                 <!-- Flexbox item -->
@@ -81,11 +81,11 @@
                         <img
                             src="images/throw-blankets.jpg"
                             alt="throw-blankets"
-                            width="150"
+                            width="200"
                         >
                         $44.09
                         Brachiosaurus Walk Throw Blanket
-                        <a href="#" class="button wide">Add To Cart</a>
+                        <a href="Add To Cart" class="button wide">Add To Cart</a>
                     </p>
                 </div>
                 <!-- Flexbox item -->
@@ -98,11 +98,11 @@
                         <img
                             src="images/tshirts.jpg"
                             alt="tshirts"
-                            width="150"
+                            width="200"
                         >
                         $17.99
                         Not Fast, Not Furious Classic T-Shirt
-                        <a href="#" class="button wide">Add To Cart</a>
+                        <a href="Add To Cart" class="button wide">Add To Cart</a>
                     </p>
                 </div>
             </div>
@@ -119,10 +119,10 @@
                             <img
                                 src="images/halloween-decorations.webp"
                                 alt="halloween-decorations"
-                                width="150"
+                                width="250"
                             >
                             Halloween Decorations Galore!
-                            <a href="#" class="button wide">Add To Cart</a>
+                            <a href="Add To Cart" class="button wide">Add To Cart</a>
                         </p>
                     </div>
                     <!-- Flexbox item -->
@@ -135,10 +135,10 @@
                             <img
                                 src="images/wall-art.png"
                                 alt="wall-art"
-                                width="155"
+                                width="200"
                             >
                             Wall Art for Art Carnisores!
-                            <a href="#" class="button wide">Add To Cart</a>
+                            <a href="Add To Cart" class="button wide">Add To Cart</a>
                         </p>
                     </div>
                     <!-- Flexbox item -->
@@ -151,14 +151,116 @@
                             <img
                                 src="images/costumes.webp"
                                 alt="costumes"
-                                width="150"
+                                width="200"
                             >
                             Halloween Costumes for Everyone!
-                            <a href="#" class="button wide">Add To Cart</a>
+                            <a href="Add To Cart" class="button wide">Add To Cart</a>
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="layout">
+            <header>
+                <h1 id="Contact Us">Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                <!--
+                To make a form actually functional, you must do two things:
+                - set the method attribute to "POST"
+                - provide a valid URL to the action attribute,
+                which will handle the form submission
+                (a free option is to create an account on getform.io,
+                and use the endpoint URL that they provide you with)
+                -->
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can we help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what we can help you with
+                            </option>
+                            <option value="gardening">
+                                Gardening
+                            </option>
+                            <option value="coding">
+                                Coding
+                            </option>
+                            <option value="web dev">
+                                Web Development
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. John Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <h2>Oh, you want more?</h2>
+                <p>
+                    To make a form like this functional, try creating
+                    an account at 
+                    <a href="https://getform.io/" target="_blank">
+                        getform.io 
+                    </a>.
+                </p>
+                <p>
+                    Then, copy the <b>Form Endpoint</b> URL they provide
+                    you with, and set it as the <form>'s 
+                    <i>action</i> attribute, as well as set the 
+                    <i>method</i> attribute to "POST".
+                </p>
+                <p>
+                    That should make your form functional, and you can
+                    see the submitted forms in getform.io, or in the 
+                    inbox you associated with your getform.io account!
+                </p>
+            </footer>
         </div>
     </body>
 </html>

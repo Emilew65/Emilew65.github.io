@@ -32,9 +32,23 @@ body {
     margin: 10px;
 }
 
-#morning .completed button
-#afternoon .completed button
-#evening .completed button {
+#morning .completed-button {
+    color: grey;
+    font-style: normal;
+    font-size: 12px;
+    padding: 12px;
+    margin: 12px auto;
+}
+
+#afternoon .completed-button {
+    color: grey;
+    font-style: normal;
+    font-size: 12px;
+    padding: 12px;
+    margin: 12px auto;
+}
+
+#evening .completed-button {
     color: grey;
     font-style: normal;
     font-size: 12px;
