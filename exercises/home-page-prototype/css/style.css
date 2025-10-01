@@ -5,14 +5,15 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #DAA520;
 }
 
 /* This is a flexbox container */
 #navbar {
     background: linear-gradient(
         to bottom,
-        rgb(250, 193, 7),
-        brown
+        #7D5B3E,
+        #3C3D3F
     );
     display: flex;
     justify-content: center;
@@ -24,7 +25,7 @@ body {
     color: white;
     padding: 24px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 24px;
     font-family: Geneva;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 #centered-hero .hero-content {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 .cta-button {
-    background-color: brown;
+    background-color: #A52A2A;
     color: white;
     border-radius: 36px;
     padding: 16px 24px;
@@ -63,4 +64,5 @@ body {
     text-align: center;
     margin-right: 24px;
     margin-left: 24px;
+    text-decoration: none;
 }
