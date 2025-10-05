@@ -1,0 +1,105 @@
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Emilewbusiness Website</title>
+                <link href="css/style.css" rel="stylesheet">
+            </head>
+            <body>
+                <div id="navbar">
+                    Emilewbusiness, LLC
+                    <a href="#" id="logo">
+                        <img 
+                            src="images/emilewbusiness-logo.jpg" 
+                            alt="emilewbusiness-logo"
+                        >
+                    </a>
+                    <div>
+                        <a href="#">Logo</a>
+                        <a href="#">Branding Packages</a>
+                        <a href="#">Website Designs</a>
+                    </div>
+                    <a href="sign-up.html" class="cta-buttom">Sign up</a>
+                    <a href="#" class="cta-buttom">Login</a>
+                </div>
+            <div id="layout">
+                    <header>
+                        <h1>Sign Up</h1>
+                    </header>
+                    <main>
+                        <!--
+                        To make a form actually functional, you must do two things:
+                        - set the method attribute to "POST"
+                         - provide a valid URL to the action attribute,
+                        which will handle the form submission
+                        (a free option is to create an account on getform.io,
+                        and use the endpoint URL that they provide you with)
+                        -->
+                        <form 
+                            method="POST" 
+                            action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                        >
+                            <div>
+                                <label for="services_id">
+                                </label>
+                                <select id="services_id" name="service_selection">
+                                    <option 
+                                        id="default_option" 
+                                        value="none" 
+                                        disabled
+                                        selected
+                                    >
+                                    </option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="name_id">Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name_id" 
+                                    name="name" 
+                                    required 
+                                    minlength="2"
+                                    placeholder="E.g. John Smith"
+                                >
+                            </div>
+                            <div>
+                                <label for="email_id">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email_id" 
+                                    name="email"
+                                    required
+                                    placeholder="E.g. jane.doe@gmail.com"
+                                >
+                            </div>
+                            <div>
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                    </main>
+                    <footer>
+                        <h2>Oh, you want more?</h2>
+                        <p>
+                            To make a form like this functional, try creating
+                            an account at 
+                            <a href="https://getform.io/" target="_blank">
+                                getform.io 
+                        </a>.
+                        </p>
+                        <p>
+                            Then, copy the <b>Form Endpoint</b> URL they provide
+                            you with, and set it as the <form>'s 
+                        <i>action</i> attribute, as well as set the 
+                        <i>method</i> attribute to "POST".
+                        </p>
+                        <p>
+                            That should make your form functional, and you can
+                            see the submitted forms in getform.io, or in the 
+                            inbox you associated with your getform.io account!
+                        </p>
+                    </footer>
+            </div>
+    </body>
+</html>

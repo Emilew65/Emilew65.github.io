@@ -5,22 +5,17 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient (
-        to bottom, blue, pink, yellow, lightgreen
-    );
+    background: linear-gradient(90deg, lavender, pink, yellow, lightgreen);
 }
 
 /*
     Navbar setup and configuration
 */
 #navbar {
-    background: linear-gradient (
-        to bottom, blue, pink
-    );
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: blue;
 
     /*
         These two properties are responsible
@@ -40,7 +35,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: blue;
     padding: 24px;
 }
 
@@ -72,7 +67,7 @@ body {
         enable scrolling to test the 
         sticky navbar
     */
-    height: 150vh;
+    height: 100vh;
 }
 
 #centered-hero {
@@ -115,7 +110,7 @@ body {
 }
 
 #layout {
-    max-width: 800px;
+    max-width: 2000px;
     margin: 48px auto;
     text-align: center;
 }
