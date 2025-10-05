@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient (
+        to bottom, blue, pink, yellow, lightgreen
+    );
+}
+
+/*
+    Navbar setup and configuration
+*/
+#navbar {
+    background: linear-gradient (
+        to bottom, blue, pink
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    /*
+        These two properties are responsible
+        for making the navbar "sticky".
+
+        The position property activates the
+        sticky behavior, but won't actually
+        do anything until a side property
+        (like the one below) is used.
+
+        The top property tells it how far
+        from the top it should stick.
+    */
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+#navbar .cta-buttom {
+    background-color: white;
+    color: blue;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/*
+    Layout setup and configuration
+*/
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    /* 
+        artificially lengthening page to
+        enable scrolling to test the 
+        sticky navbar
+    */
+    height: 150vh;
+}
+
+#centered-hero {
+    background-image: url("../images/emilewbusiness-logo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+
+#centered-hero .hero-content {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.912);
+    padding-top: 50px;
+}
+
+#centered-hero h2 {
+    font-size: 72px;
+    margin-bottom: 18px;
+}
+
+#centered-hero h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#centered hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    padding: 18px;
+    margin-top: 16px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
